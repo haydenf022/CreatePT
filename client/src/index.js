@@ -1,10 +1,3 @@
-/* 
-onEvent("calculateButton", "click", function () {
-  updateQuadratic(
-    quadratic(getText("aInput"), getText("bInput"), getText("cInput"))
-  );
-}); 
-*/
 const prompt = require("prompt-sync")({ sigint: true });
 
 var a = prompt("What is a (nonzero) in this quadratic? ");
@@ -39,9 +32,3 @@ function quadratic(a, b, c) {
     return "The solutions to this quadratic are not real.";
   }
 }
-
-/*
-function updateQuadratic(solutions) {
-  setProperty("solution1", "text", solutions);
-}
-*/

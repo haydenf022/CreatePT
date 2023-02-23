@@ -36,7 +36,7 @@ function quadratic(a, b, c) {
         );
       }
     } else {
-      return "The solutions to this quadratic are not real.";
+      return "The solutions to this quadratic are not real or you did not enter numbers for a, b, and c.";
     }
   }
 }

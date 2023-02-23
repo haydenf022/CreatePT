@@ -22,7 +22,7 @@ function quadratic(a, b, c) {
     typeof ~~c != "number" ||
     a == 0
   ) {
-    return "Please enter numbers for a (nonzero), b, and c.";
+    return "Please enter numbers for A (nonzero), B, and C.";
   } else {
     var solution1 =
       Math.round(
@@ -43,7 +43,7 @@ function quadratic(a, b, c) {
         return `The solutions to this quadratic are ${solution1} and ${solution2}.`;
       }
     } else {
-      return "The solutions to this quadratic are not real.";
+      return "The solutions to this quadratic are not real or you did not enter numbers for a, b, and c.";
     }
   }
 }

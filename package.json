@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/haydenf022/CreatePT/issues"
   },
-  "homepage": "https://github.com/haydenf022/CreatePT#readme"
+  "homepage": "https://github.com/haydenf022/CreatePT#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
 }

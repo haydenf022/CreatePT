@@ -16,8 +16,14 @@ if (
 }
 
 function quadratic(a, b, c) {
-  var solution1 = (-1 * b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
-  var solution2 = (-1 * b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
+  var solution1 =
+    Math.round(
+      ((-1 * b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a)) * 100
+    ) / 100;
+  var solution2 =
+    Math.round(
+      ((-1 * b - Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a)) * 100
+    ) / 100;
 
   if (solution1 || solution2 || solution1 == 0 || solution2 == 0) {
     if ((solution1 && !solution2) || (solution2 && !solution1)) {
